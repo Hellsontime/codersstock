@@ -1,0 +1,347 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background: url(../img/hbackg.png) no-repeat fixed top / cover;
+	height: 1000px;
+
+}
+
+.logo {
+	margin-top: 38px;
+	float: left;
+	padding-bottom: 20px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	color: 000;
+}
+
+
+
+nav {
+	float: right;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-top: 70px;
+	margin-right: 40px;
+
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	transition: 0.2s;
+	vertical-align: middle;
+}
+
+.menu a:hover {
+	color: #CACACA;
+}
+
+.head {
+	transform: scale(1.5);
+}
+
+.titles1 {
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 280px;
+	transform: scale(0.8);
+}
+
+h1 {
+	font-size: 65px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+	transform: scale(0.8);
+}
+
+h2 {
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+}
+
+.clearfix {
+	display: table;
+	width: 100%;
+}
+
+.button {
+	background-color: #009BFF;
+	color: #fff;
+	display: block;
+	border-radius: 10px;
+	width: 305px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 75px;
+	border-bottom: 6px solid #0066AB;
+	transition: 0.2s;
+}
+
+.button:hover {
+	background-color: #008CE6;
+	border-bottom: 6px solid #00548C;
+	transform: scale(1.05);
+}
+
+.servtitle {
+	color: black;
+	font-size: 55px;
+	padding: 0;
+	margin: 0;
+	margin-top: 120px
+}
+
+.servtitle1 {
+	color: #323232;
+	font-size: 55px;
+	padding: 0;
+	margin: 0;
+	margin-top: 50px
+}
+
+.servundertitle {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 7px;
+	font-size: 20px;
+
+}
+
+.servic {
+	width: 240px;
+	float: left;
+	text-align: center;
+	transform: scale(0.9);
+	margin-top: 85px;
+	margin-bottom: 110px;
+}
+
+#portfolio {
+	background: #EAEAEA;
+	padding-top: 100px;
+	padding-bottom: 170px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 35px;
+}
+
+.works img:last-child {
+	float: right; 
+}
+
+.works {
+	text-align: center;
+	margin-top: 80px;
+	transition: 0.3s;
+}
+
+.works:hover {
+}
+
+.p1 {
+	transition: 0.3s;
+}
+
+.p1:hover {
+	transform: scale(1.1);
+	background-color: red;
+}
+
+.p2 {
+	transition: 0.3s;
+}
+
+.p2:hover {
+	transform: scale(1.1);
+}
+
+.p3 {
+	transition: 0.3s;
+}
+
+.p3:hover {
+	transform: scale(1.1);
+}
+
+.square {
+	width: 250px;
+	height: 11px;
+	background-color: #323232;
+	margin-left: 21px;
+	float: left;
+	margin-top: 19px;
+}
+
+.square1 {
+	background-color: #323232;
+	width: 250px;
+	height: 11px;
+	margin-left: 356px;
+	margin-top: 19px;
+}
+
+.square:last-child {
+	float: right;
+	margin-right: 21px;
+	margin-top: -11px;
+}
+
+.allserv {
+	transform: scale(1);
+}
+
+.first {
+	margin-top: 160px;
+	margin-bottom: 110px;
+}
+
+.first1 {
+	margin-top: 90px;
+}
+
+
+
+
+.qqq {
+	color: #323232;
+}
+
+.aboutpic {
+	margin-top: 35px;
+	transform: scale(0.7);
+
+}
+
+#a1 {
+	float: left;
+	width: 960px;
+}
+
+#a2 {
+	float: right;
+	width: 960px;
+}
+
+#a3 {
+	float: left;
+	width: 960px;
+	margin-bottom: 100px;
+}
+
+.floatr {
+	float: right;
+}
+
+.floatl {
+	float: left;
+
+}
+
+h5 {
+	margin-left: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 55px;
+	padding: 0px;
+	margin: 33px;
+	text-transform: uppercase;
+}
+
+.atext {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	width: 450px;
+	text-transform: uppercase;
+	line-height: 36px;
+
+}
+
+.left {
+
+}
+
+footer {
+	background: url(img/footer-backg.png) no-repeat fixed top / cover;
+	height: 110px;
+}
+ .footertxt {
+ 	color: white;
+ 	text-align: center;
+ 	padding-top: 45px;
+ 	font-size: 18px;
+
+ }
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
+html, body{
+height: 100%;
+}
+
+.mid {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.headhesive {
+	width: 100%;
+	margin: 0 auto;
+	background: url(img/heading.png) no-repeat top / cover;
+	z-index: 1;
+	position: fixed;
+	transform: translateY(-100%);
+	transition: 0.5s;
+	border-bottom: 4px solid #323232;
+}
+
+.headhesive--stick {
+	transform: translateY(-12%);
+}
+	
+
