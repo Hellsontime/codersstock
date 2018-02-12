@@ -292,7 +292,6 @@ h5 {
 	margin: 0;
 	font-size: 24px;
 	width: 450px;
-	text-transform: uppercase;
 	line-height: 36px;
 
 }
@@ -337,7 +336,7 @@ height: 100%;
 	position: fixed;
 	transform: translateY(-100%);
 	transition: 0.5s;
-	border-bottom: 4px solid #323232;
+	border-bottom: 3px solid #323232;
 }
 
 .headhesive--stick {
